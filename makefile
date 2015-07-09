@@ -34,4 +34,4 @@ lint:
 	golint `find . -name "*.go"`
 
 e8doc:
-	e8doc -pkg="github.com/h8liu/goread/my"
+	e8doc -pkg="github.com/h8liu/goread/my" -addr=":8000"
